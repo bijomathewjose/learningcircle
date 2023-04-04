@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../../../../Components/Navbar/Navbar";
 import Footer from "../../../../Components/Footer/Footer";
-// eslint-disable-next-line no-unused-vars
 import ExampleMsg from "../../../../Components/ExampleMsg/ExampleMsg";
 import styles from "./CTFChallenge.module.css";
 import { Link } from "react-router-dom";
@@ -24,7 +23,7 @@ const CTFChallenge = () => {
                 to do to secure your entry is to crack this preliminary task
               </p>
               <p className={styles.late_date}>
-                Late Date of Submission: 6th March 2023
+                Late Date of Submission: 4th March 2023
               </p>
               <div className={styles.buttons}>
                 <a

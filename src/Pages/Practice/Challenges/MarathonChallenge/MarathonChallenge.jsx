@@ -22,21 +22,14 @@ const MarathonChallenge = () => {
                 challenge is open to all levels of runners, from beginners to
                 experienced athletes.
                 <br />
+                <br />
               </p>
-              <p className={styles.late_date}>
-                Free Tickets for the First 25 completions. Hurry up and run to
-                secure your FREE tickets!
-              </p>
-
-              <br />
               <a
                 href="https://airtable.com/shrJpHwakqmNxjWE1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className={styles.joinchallenge}>
-                  Complete Challenge
-                </button>
+                <button className={styles.joinchallenge}>Join Challenge</button>
               </a>
             </div>
           </div>
@@ -128,22 +121,6 @@ const MarathonChallenge = () => {
                       the statistics with the hashtag{" "}
                       <b>#marathon-challenge-21km</b> in the marathon-challenge
                       channel for completing this stage.
-                      <br />
-                      <br />
-                      You can also{" "}
-                      <a
-                        href="http://mulearn.org/gtechmarathon"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <b>Buy Tickets</b>
-                      </a>{" "}
-                      for the GTech Marathon
-                      <b>
-                        <p>
-                          Make sure your profile is visible in the screenshot
-                        </p>
-                      </b>
                     </div>
                   </div>
                 </div>
