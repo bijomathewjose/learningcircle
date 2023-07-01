@@ -8,7 +8,6 @@ export const DesktopMenu = ({ open }) => {
       <NavLinks Open={true} />
       <a
         href="http://mulearn.org/careers"
-        target="_blank"
         rel="noopener noreferrer"
         className="py-7 px-3 inline-block"
       >
@@ -34,13 +33,11 @@ export const Resources = ({ notificationOpen }) => {
         </div>
       </div>
       <a
-        href="https://app.mulearn.org/user/register/"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="https://app.mulearn.org/register/"
         className="py-7 px-3 inline-block"
       >
         <button className="bg-orange-400 text-white  px-6 py-2 rounded-md">
-          Join Discord
+          Join µLearn
         </button>
       </a>
       <a

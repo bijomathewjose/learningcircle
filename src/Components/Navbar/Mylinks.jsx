@@ -180,11 +180,18 @@ export const links = [
         head: 2,
         name: "The Chaptership",
         submenu: true,
-        link: mainlink + "/campuschapters",
+        link: "/campuschapters",
         sublinks: [
           {
-            name: "User Journey",
-            link: mainlink + "/journey",
+            name: "Lead a Campus",
+            link: "https://airtable.com/shrmtngt3zopg8eVh",
+            submenu: false,
+            sublinks: [],
+            foreign: false,
+          },
+          {
+            name: "Find Your Campus",
+            link: mainlink + "/campuschapters#findchapter",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -198,7 +205,7 @@ export const links = [
           },
           {
             name: "Success Stories",
-            link: mainlink + "/successstories",
+            link: mainlink + "/blogs",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -210,13 +217,6 @@ export const links = [
         name: "The Orientation",
         submenu: true,
         sublinks: [
-          {
-            name: "Lead a Campus",
-            link: "https://airtable.com/shrmtngt3zopg8eVh",
-            submenu: false,
-            sublinks: [],
-            foreign: false,
-          },
           {
             name: "Typing Mastery",
             link: "/challenge/typing",
@@ -341,21 +341,21 @@ export const links = [
         sublinks: [
           {
             name: "Android Development",
-            link: "/android",
+            link: "/webmobile/android",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
             name: "Artifical Intelligence",
-            link: "/ai",
+            link: "/aimlanalytics/ai",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
             name: "Civil Engineering",
-            link: "/civil",
+            link: "/noncircuit/civil",
             submenu: false,
             sublinks: [],
             foreign: false,
@@ -369,28 +369,28 @@ export const links = [
           },
           {
             name: "IoT",
-            link: "/iot",
+            link: "/iotrf/iot",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
             name: "Product Management",
-            link: "/pm",
+            link: "/innovationentre/pm",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
             name: "UX",
-            link: "/ux",
+            link: "/uiuxcreative/ux",
             submenu: false,
             sublinks: [],
             foreign: false,
           },
           {
             name: "Web Development",
-            link: "/web",
+            link: "/webmobile/web",
             submenu: false,
             sublinks: [],
             foreign: false,
