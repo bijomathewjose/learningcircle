@@ -15,7 +15,8 @@ const NavLinks = () => {
     if (link.parent === 'null')
       return ({
         name: link?.heading,
-        link: `https://learn.mulearn.org/${link?.code}`,
+        link: `${link?.code}`,
+        foreign: true
       })
     else return {}
   })
